@@ -1,0 +1,13 @@
+div{
+    background: red;
+    width: 30px;
+    height: 30px;
+    transition-property: all;
+    transition-duration: 2s;
+    --main-width: 30px;
+}
+
+#caja1:hover, #caja2:hover{
+    background-color: blue;
+    width: calc(var(--main-width) * 2);
+}
