@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos/bootstrap.min.css">
+    <title>Cards</title>
+    <style>
+        #btnCard:hover{
+            background-color: blueviolet !important;
+            border: 1px solid black !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3"></div>
+        <div class="row mt-3">
+            <div class="col-4">
+                <div class="card">
+                    <img class="card-img-top" src="media/spider.jpg" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo</h5>
+                        <h6 class="card-subtutle text-muted mb-2">Subtitulo</h6>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra a nisi eget
+                            consectetur. Morbi vitae justo quis sapien tincidunt dignissim. Ut in turpis vitae ante
+                            lacinia feugiat. Nam ipsum.
+                        </p>
+                        <a id="btnCard" href="#" class="btn btn-outline-primary">Botón</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
+                            <li class="nav-item">
+                                <a href="#tab1" class="nav-link active" data-bs-toggle="tab">Pestaña 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#tab2" class="nav-link" data-bs-toggle="tab">Pestaña 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#tab3" class="nav-link" data-bs-toggle="tab">Pestaña 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-body tab-content">
+                        <div class="tab-pane active" id="tab1">
+                            <h5 class="card-title">Titulo</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra a nisi eget
+                                consectetur. Morbi vitae justo quis sapien tincidunt dignissim. Ut in turpis vitae ante
+                                lacinia feugiat. Nam ipsum.
+                            </p>
+                        </div>
+                        <div class="tab-pane" id="tab2">
+                            <h5 class="card-title">Segunda Pestaña</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra a nisi eget
+                                consectetur. Morbi vitae justo quis sapien tincidunt dignissim. Ut in turpis vitae ante
+                                lacinia feugiat. Nam ipsum.
+                            </p>
+                        </div>
+                        <div class="tab-pane" id="tab3">
+                            <h5 class="card-title">Tercera Pestaña</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra a nisi eget
+                                consectetur. Morbi vitae justo quis sapien tincidunt dignissim. Ut in turpis vitae ante
+                                lacinia feugiat. Nam ipsum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

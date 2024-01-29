@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Animación</title>
+
+    <style>
+        h1{
+            animation-duration: 6s;
+            animation-name: estiloAnimacion;
+            animation-iteration-count: 5;
+            animation-direction: alternate;
+        }
+        @keyframes estiloAnimacion { 
+            from{
+                margin-left: 50%;
+                width: 200%;
+            }
+            50%{
+                font-size: 200%;
+                margin-left: 10%;
+                width: 150%;
+            }
+            to{
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>ESTO ES UNA ANIMACIÓN</h1>
+</body>
+</html>
